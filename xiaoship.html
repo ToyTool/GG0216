@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+  <meta charset="UTF-8">
+  <title>郭郭的小视频</title>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="css/index_css.css">
+  <style>
+    p{
+      font-size: 18px;
+      font-family: 微软雅黑;
+      line-height:1.9em;
+    }
+  </style>
+</head>
+<body>
+<div id="header"></div>
+<div id="logo"></div>
+<div id="nav"></div>
+<script>
+    $("#header").load("header1.html");
+    $("#logo").load("logo1.html");
+    $("#nav").load("nav1.html");
+</script>
+
+<div class="wang_content_111">
+
+  <img  class="ban" src="image/66.jpg" height="106" width="118"/>
+  <h1>郭郭的小视频</h1><br><hr><br><br><br>
+  <video  controls="controls" height="70%" width="70%">
+    <source src="image/02.mp4"  type="video/mp4" height="50%" width="50%"/>
+  </video>
+
+  </div>
+</div>
+<div id="footer"></div>
+<script> $("#footer").load("footer1.html");</script>
+</body>
+</html>

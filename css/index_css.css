@@ -1,0 +1,284 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /*background: #FFD2D2;*/
+}
+body{
+  background: #fbffff;
+  /*background: url("../image2/back.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;*/
+}
+.all_header{
+  width: 100%;
+  height:43px;
+  background: url("../image/98.gif");
+  margin: 0 auto;
+  text-align: center;
+
+}
+.all_header a{
+  top: 11px;
+  font-size: 17px;
+  position: relative;
+  left: 270px;
+  color: #f5fff8;
+  text-decoration: none;
+  float: left;
+  list-style: none;
+}
+
+.acc{
+  left: 1320px;
+  position: absolute;
+  top: 11px;
+}
+.all_header a:hover{
+  color: gold;
+}
+.all_logo{
+  margin: 0 auto;
+  text-align: center;
+}
+nav{
+  position: relative;
+  z-index: 9999;       /*   !!!   重要  菜单优先 */
+}
+.all_nav{
+  width: 100%;
+  height: 53px;
+  background: url("../image/82.gif");
+  z-index: 9999;
+}
+.all_nav ul{
+  width: 1200px;
+  height: 53px;
+  margin: 0 auto;
+}
+.all_nav ul li{
+  list-style: none;   /* 重要！！！ 消除菜单前的圆点*/
+  float: left;           /*重要！！！ 控制一级菜单平铺 */
+}
+.all_nav ul li a{
+  display: block;           /* 重要！！！ 分块 */
+  width: 240px;
+  text-align: center;
+  text-decoration: none;    /*重要！！！ 除去该超链接的下划线 */
+  font-size: 26px;
+  line-height: 53px;
+  background: url("../image/82.gif");
+  color: #fbffff;
+}
+.all_nav ul li a:hover{
+  background: url("../image/81.gif");
+  color: gold;
+}
+.all_nav ul li a:active{
+  color: red;
+}
+.all_nav ul li:hover ul{
+  display: block;     /*重要！！！ 分块显示二级链接 */
+}
+.all_nav ul li ul{
+  display: none;            /*重要！！！ 如果没有，二级链接将全部展示出来 */
+  position: absolute;       /*重要！！！ 绝对定位，对浏览器而言，与其对应的是 相对定位relative */
+  width: 240px;
+}
+/*.all_nav ul li ul li{             下面这两个没什么用感觉可以忽略，如果有三级菜单的话另说
+  float: none;
+  background-color: #FFFF93;
+}
+.all_nav ul li ul li a:hover{
+  background-color:  #FFFF93;
+}*/
+
+.back{
+  background: url("../image/back.jpg");
+  /*background-repeat:no-repeat;*/
+  background-size: 100%;
+
+}
+
+.ban{
+  position: relative;
+  left: 300px;
+  top: 30px;
+}
+
+.all_content{
+  margin: 0 auto;
+  width: 1000px;
+  height:1100px;
+  background: url("../image/content.gif");
+}
+
+.all_content_001{
+  width: 490px;
+  height: 490px;
+  background: #fbffff;
+  margin-right: 8px;
+  margin-top: 50px;
+  float: left;
+
+
+}
+.all_content_002{
+  width:490px;
+  height: 400px;
+  background: #fbffff;
+  margin-right: 8px;
+  margin-top: 50px;
+  float: left;
+
+}
+.all_content_002_a{
+  width:450px ;
+  height: 10px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+.all_content_002_a a{
+  font-size: 22px;
+  text-decoration: none;
+  font-family: 微软雅黑;
+}
+.all_content_002_a a:hover{
+  color: #FF2D2D;
+}
+.all_content_002_b{
+  width:100px ;
+  height: 10px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 65px;
+}
+.all_content_002_hr{
+  width: 450px;
+  height: 3px;
+  margin-top: 5px;
+  margin-left: 20px;
+  float: left;
+  background: #b3d4fc;
+}
+.all_content_002_c{
+  width: 400px;
+  height: 220px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 20px;
+
+}
+.video1{
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.video2{
+  autoplay:"autoplay";
+  height: 500px;
+  width: 490px;
+  float: left;
+}
+.wang_content{
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto;
+  width: 1200px;
+  height: 1400px;
+  background: url("../image/content.gif");
+}
+.wang_content_222 {
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto;
+  width: 1500px;
+  height: 2000px;
+  background: url("../image/content.gif");
+}
+.wang_content_222_hr{
+  width: 1450px;
+  height: 3px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  float: left;
+  background: #cccccc;
+}
+.wang_content_222_a {
+  padding-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background: url("../image/content.gif");
+}
+.wang_content_111{
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto;
+  width: 1200px;
+  height: 1000px;
+  background: url("../image/content.gif");
+}
+.wang_content_001{
+
+  margin-left: 500px;
+  align-content: center;
+  width: 500px;
+  height: 500px;
+  background: #fbffff;
+  margin-left: 10px;
+  margin-top: 5px;
+  float: left;
+  border: 1px solid;
+  border-color: #FF2D2D;
+  border-radius: 15px;
+}
+.wang_content_001 a{
+  font-size: 35px;
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 25px;
+  width: 1000px;
+  float: left;
+  margin-left: 35px;
+}
+.wang_content_002_a{
+  width:500px ;
+  height: 10px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+.wang_content_002_b{
+  width:300px ;
+  height: 10px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+.wang_content_002_hr{
+  width: 1170px;
+  height: 3px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  float: left;
+  background: #cccccc;
+}
+.all_footer{
+  text-indent: 5em;
+  line-height:1.9em;
+  padding-top: 70px;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background: #222222;
+  color: #cccccc;
+  font-size: 17px;
+}
+.all_footer a{
+  color: #FFFF93;
+  text-decoration: none;
+}
+
+
